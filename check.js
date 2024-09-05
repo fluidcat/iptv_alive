@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+debugger
+
 const CHECK_URL = [
   "https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
   "https://raw.githubusercontent.com/qist/tvbox/master/list.txt",
