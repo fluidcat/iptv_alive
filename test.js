@@ -188,19 +188,11 @@ function regroup(channels) {
   var groupCount = 0;
   var vGroup = 'other';
   var channelGroups = {vGroup:[]};
-  var tvChannelGroups = {
-	  '央视频道':[]
-		  ,'卫视频道':[]
-		  ,'地方频道':[]
-		  ,'港澳频道':[]
-		  ,'国外频道':[]
-		  ,'其他':[]
-		  ,'电影':[]
-		  ,'电视剧':[]
-		  ,'历年春晚':[]
-		  ,'直播中国':[]
-		  ,'IPV6频道':[]
-	};
+  var groups = ['央视频道','卫视频道','地方频道','港澳频道','国外频道','其他','电影','电视剧','历年春晚','直播中国','IPV6频道'];
+  var tvChannelGroups = {};
+  
+  groups.forEach(g=>tvChannelGroups[g]=[])
+  
   globalArr.forEach((line) => {
 	  line = line.trim();
 	  if(line.trim().length == 0){
@@ -232,7 +224,7 @@ function regroup(channels) {
 		 tvChannelGroups['卫视频道'].push(...channelGroups[group])
 	  }
 	  else if(/地方/.test(group)) {
-		  tvChannelGroups['其他'].push(...channelGroups[group])
+		  tvChannelGroups['地方频道'].push(...channelGroups[group])
 	  }
 	  else if(/轮播|电影/.test(group)) {
 		  tvChannelGroups['电影'].push(...channelGroups[group])
@@ -268,12 +260,12 @@ function regroup(channels) {
 		}
 	  }
   }
-  for(let group in tvChannelGroups) {
+  groups.forEach(group=>{
 	  ret += group+',#genre#\n';
 	  for(channel in tvChannelGroups[group]) {
 		  ret += tvChannelGroups[group][channel]+'\n'
 	  }
-  }
+  });
   console.log(ret)
   return ret;
 }
@@ -291,6 +283,7 @@ async function loadexturl() {
 
     var content = await geturlcontent(url);
     if (content) {
+//		ret += content;
 		ret += await checkallurl(content);
     }
   }, "");
@@ -305,7 +298,7 @@ async function loadexturl() {
   fs.writeFile(channelM3u, m3u_txt, {flag: 'w+'}, err => {});
 
   // push到 github
-  //await pushgit();
+  await pushgit();
   console.log("状态:", "over");
   // process.exit(0);
 }
