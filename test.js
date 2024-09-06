@@ -8,11 +8,14 @@ const CHECK_URL = [
 // const PROXY_ENV = "http_proxy=http://127.0.0.1:7890 https_proxy=http://127.0.0.1:7890";
 const PROXY_ENV = "";
 const fetch = require("node-fetch");
-var exec = require("child_process").exec;
-
+const fs = require('fs');
 const os = require('os');
+const process = require("child_process")
 
+var exec = process.exec;
 var enter = os.type() == 'Windows_NT'?'\\n':'\n';
+var channelTxt = './live.txt';
+var channelM3u = './live.m3u';
 
 async function verifyurl(url) {
   try {
@@ -50,13 +53,10 @@ async function getPlain(url) {
 
 async function geturlcontent(url) {
   try {
-    var res1 = await execmd(PROXY_ENV + " " + 'curl -s -L "' + url + '"');
+//    var res1 = await execmd(PROXY_ENV + " " + 'curl -s -L "' + url + '"');
 	var res = await getPlain(url);
 	console.log(res);
-    if (res[0]) {
-      return "";
-    }
-    return res[1];
+    return res;
   } catch (e) {
     console.log(e);
     return "";
@@ -150,7 +150,6 @@ async function checkallurl(data) {
       if (isesplit[1].trim().indexOf("http") == 0) {
         if (await verifyurl(isesplit[1].trim())) {
           console.log("append:", ise);
-          // await execmd('printf -- "\n' + ise + '"' + " >>live.txt");
           ret += "\n" + ise;
         } else {
           console.log("过滤无法访问的源:", ise);
@@ -158,7 +157,6 @@ async function checkallurl(data) {
         return;
       }
     }
-    // await execmd('printf -- "\n' + ise + '"' + " >>live.txt");
     ret += "\n" + ise;
   }, "");
   console.log(ret)
@@ -166,8 +164,8 @@ async function checkallurl(data) {
 }
 async function loadexturl() {
   // const loadlist='https://raw.githubusercontent.com/qist/tvbox/master/list.txt'
-  await execmd('printf -- "' + '"' + " >live.txt");
-  await execmd('printf -- "' + '"' + " >live.m3u");
+  fs.writeFile(channelTxt, '', { flag: 'w+' }, err => {});
+  fs.writeFile(channelM3u, '', { flag: 'w+' }, err => {});
 
   let ret = "";
   await CHECK_URL.reduce(async (memo, url) => {
@@ -177,21 +175,23 @@ async function loadexturl() {
     }
 
     var content = await geturlcontent(url);
-    // console.log(content);
     if (content) {
       ret += await checkallurl(content);
     }
   }, "");
+  
   // 获取全部可用链接后，统一写入
-  for (const line of ret.substr(1).split("\n")) {
-    await execmd('printf -- "' + line + enter + '" >>live.txt');
-  }
+  fs.writeFile(channelTxt, ret, { flag: 'w+' }, err => {});
+  // for (const line of ret.substr(1).split("\n")) {
+  //  await execmd('printf -- "' + line + enter + '" >>live.txt');
+  // }
   let m3u_txt = convertToM3U(ret);
   // console.log(m3u_txt);
   // 写入 m3u 地址
-  for (const line of m3u_txt.split("\n")) {
-    await execmd('printf -- "' + line + enter + '" >>live.m3u');
-  }
+  fs.writeFile(channelTxt, m3u_txt, { flag: 'w+' }, err => {});
+  // for (const line of m3u_txt.split("\n")) {
+  //   await execmd('printf -- "' + line + enter + '" >>live.m3u');
+  // }
   // push到 github
   await pushgit();
   console.log("状态:", "over");
