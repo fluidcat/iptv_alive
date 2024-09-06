@@ -42,7 +42,7 @@ async function getPlain(url) {
       headers: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0"},
       timeout: 3000,
     });
-    return res;
+    return await res.text();
   } catch (e) {
     return "";
   }
@@ -50,8 +50,8 @@ async function getPlain(url) {
 
 async function geturlcontent(url) {
   try {
-    var res = await execmd(PROXY_ENV + " " + 'curl -s -L "' + url + '"');
-	var res1 = await getPlain(url).text();
+    var res1 = await execmd(PROXY_ENV + " " + 'curl -s -L "' + url + '"');
+	var res = await getPlain(url);
 	console.log(res);
     if (res[0]) {
       return "";
