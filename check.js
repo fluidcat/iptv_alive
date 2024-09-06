@@ -1,21 +1,20 @@
-#!/usr/bin/env node
-
-debugger
-
 const CHECK_URL = [
-  "https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
-  "https://raw.githubusercontent.com/qist/tvbox/master/list.txt",
-  "https://gitee.com/xxy002/zhiboyuan/raw/master/zby.txt",
-  "http://kv.zwc365.com/tvlive",
+  "https://gitdl.cn/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
+  //"https://gitdl.cn/https://raw.githubusercontent.com/qist/tvbox/master/list.txt",
+  //"https://gitee.com/xxy002/zhiboyuan/raw/master/zby.txt",
+  //"http://kv.zwc365.com/tvlive"
 ];
 
-const PROXY_ENV =
-  "http_proxy=http://127.0.0.1:7890 https_proxy=http://127.0.0.1:7890";
+// const PROXY_ENV = "http_proxy=http://127.0.0.1:7890 https_proxy=http://127.0.0.1:7890";
+const PROXY_ENV = "";
 const fetch = require("node-fetch");
 var exec = require("child_process").exec;
 
 async function verifyurl(url) {
   try {
+	if(url.endsWith("flv")){
+		return false;
+	}
     var res = await fetch(url, {
       method: "GET",
       headers: {
@@ -34,6 +33,7 @@ async function verifyurl(url) {
 async function geturlcontent(url) {
   try {
     var res = await execmd(PROXY_ENV + " " + 'curl -s -L "' + url + '"');
+	console.log(res);
     if (res[0]) {
       return "";
     }
@@ -142,6 +142,7 @@ async function checkallurl(data) {
     // await execmd('printf -- "\n' + ise + '"' + " >>live.txt");
     ret += "\n" + ise;
   }, "");
+  console.log(ret)
   return ret;
 }
 async function loadexturl() {
@@ -164,6 +165,7 @@ async function loadexturl() {
   }, "");
   // 获取全部可用链接后，统一写入
   for (const line of ret.split("\n")) {
+	  console.log("写入文件"+line);
     await execmd('printf -- "\n' + line + '"' + " >>live.txt");
   }
   let m3u_txt = convertToM3U(ret);
@@ -175,9 +177,10 @@ async function loadexturl() {
   // push到 github
   await pushgit();
   console.log("状态:", "over");
-  process.exit(0);
+  // process.exit(0);
 }
 
 console.log("开始测试live地址并保存");
 loadexturl();
+
 // pushgit();
