@@ -17,6 +17,25 @@ var enter = os.type() == 'Windows_NT'?'\\n':'\n';
 var channelTxt = './live.txt';
 var channelM3u = './live.m3u';
 
+Date.prototype.Format = function (fmt) {
+  var o = {
+    'M+': this.getMonth() + 1,
+    'd+': this.getDate(),
+    'H+': this.getHours(),
+    'm+': this.getMinutes(),
+    's+': this.getSeconds(),
+    'S+': this.getMilliseconds()
+  };
+  if (/(y+)/.test(fmt)) {
+    fmt = fmt.replace(RegExp.$1, (this.getFullYear() + '').substr(4 - RegExp.$1.length));
+  }
+  for (var k in o) {
+    if (new RegExp('(' + k + ')').test(fmt)) {
+      fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (('00' + o[k]).substr(String(o[k]).length)));
+    }
+  }
+  return fmt;
+};
 async function verifyurl(url) {
   try {
 	if(url.endsWith("flv")){
@@ -95,7 +114,7 @@ async function pushgit() {
     console.log("git 提交出错：", gitstatu);
     return;
   }
-  var gitstatu = await execmd('git commit -m "' + "自动提交: $(date)" + '"');
+  var gitstatu = await execmd('git commit -m "' + "自动提交: "+(new Date()).Format('yyyy-MM-dd HH:mm:ss')+ '"');
   if (gitstatu[0]) {
     console.log("git 提交出错：", gitstatu);
     return;
@@ -180,7 +199,7 @@ async function loadexturl() {
   }, "");
   
   // 获取全部可用链接后，统一写入
-  fs.writeFile(channelTxt, ret, { flag: 'w+' }, err => {});
+  fs.writeFile(channelTxt, ret.trim(), { flag: 'w+' }, err => {});
 
   let m3u_txt = convertToM3U(ret);
   // 写入 m3u 地址
