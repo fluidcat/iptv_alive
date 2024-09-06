@@ -1,8 +1,8 @@
 const CHECK_URL = [
   "https://gitdl.cn/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
-  //"https://gitdl.cn/https://raw.githubusercontent.com/qist/tvbox/master/list.txt",
-  //"https://gitee.com/xxy002/zhiboyuan/raw/master/zby.txt",
-  //"http://kv.zwc365.com/tvlive"
+  "https://gitdl.cn/https://raw.githubusercontent.com/qist/tvbox/master/list.txt",
+  "https://gitee.com/xxy002/zhiboyuan/raw/master/zby.txt",
+  "http://kv.zwc365.com/tvlive"
 ];
 
 // const PROXY_ENV = "http_proxy=http://127.0.0.1:7890 https_proxy=http://127.0.0.1:7890";
@@ -88,7 +88,7 @@ async function execmd(cmd) {
   var _err,
     _stdout,
     _stderr = null;
-  exec(cmd, { encoding:"utf-8"}, async function (err, stdout, stderr) {
+  exec(cmd, async function (err, stdout, stderr) {
     _err = err;
     _stdout = stdout;
     _stderr = stderr;
@@ -181,6 +181,103 @@ async function checkallurl(data) {
   console.log(ret)
   return ret;
 }
+
+function regroup(channels) {
+  var globalArr = channels.split("\n");
+  let ret = "";
+  var groupCount = 0;
+  var vGroup = 'other';
+  var channelGroups = {vGroup:[]};
+  var tvChannelGroups = {
+	  '央视频道':[]
+		  ,'卫视频道':[]
+		  ,'地方频道':[]
+		  ,'港澳频道':[]
+		  ,'国外频道':[]
+		  ,'其他':[]
+		  ,'电影':[]
+		  ,'电视剧':[]
+		  ,'历年春晚':[]
+		  ,'直播中国':[]
+		  ,'IPV6频道':[]
+	};
+  globalArr.forEach((line) => {
+	  line = line.trim();
+	  if(line.trim().length == 0){
+		  return;
+	  }
+	  // 虚拟组名
+	  if(line.includes("#genre#")) {
+		  groupCount++;
+		  vGroup = (groupCount+'').padStart(10,0)+'_'+line.split(',')[0];
+		  channelGroups[vGroup] = channelGroups[vGroup]?channelGroups[vGroup]:[];
+	  } else {
+		  // 统一cctv名称
+		  if(line.startsWith('CCTV') && cctvRegx.test(line)) {
+			  // 找到一行的频道名称
+			  let nameStr = cctvRegx.exec(line)[0];
+			  let realName = cctvMap[nameStr.substr(0, nameStr.length-1).trim()];
+			  line = line.replace(nameStr, realName);
+		  }
+		  channelGroups[vGroup].push(line);
+	  }
+  });
+
+  for(let group in channelGroups) {
+	  // 某些组直接归类：
+	  if(/CCTV|央视|体育类/.test(group)) {
+		  tvChannelGroups['央视频道'].push(...channelGroups[group])
+	  }
+	  else if(/卫视|综合/.test(group)) {
+		 tvChannelGroups['卫视频道'].push(...channelGroups[group])
+	  }
+	  else if(/地方/.test(group)) {
+		  tvChannelGroups['其他'].push(...channelGroups[group])
+	  }
+	  else if(/轮播|电影/.test(group)) {
+		  tvChannelGroups['电影'].push(...channelGroups[group])
+	  }
+	  else if(/电视剧/.test(group)) {
+		  tvChannelGroups['电视剧'].push(...channelGroups[group])
+	  }
+	  else if(/IPV6/.test(group)) {
+		  tvChannelGroups['IPV6频道'].push(...channelGroups[group])
+	  }
+	  else if(/直播中国/.test(group)) {
+		  tvChannelGroups['直播中国'].push(...channelGroups[group])
+	  }
+	  else if(/世界|海外/.test(group)) {
+		  tvChannelGroups['国外频道'].push(...channelGroups[group])
+	  }
+	  else if(/春晚/.test(group)) {
+		  tvChannelGroups['历年春晚'].push(...channelGroups[group])
+	  }
+	  else if(/港澳台|海外/.test(group)) {
+		  tvChannelGroups['港澳频道'].push(...channelGroups[group])
+	  } else {
+		for(let index in channelGroups[group]) {
+			let channel = channelGroups[group][index]
+			if(/CCTV/.test(channel)) {
+				tvChannelGroups['央视频道'].push(channel)
+			}
+			else if(/卫视/.test(channel)) {
+				tvChannelGroups['卫视频道'].push(channel)
+			} else {
+				tvChannelGroups['其他'].push(channel)
+			}
+		}
+	  }
+  }
+  for(let group in tvChannelGroups) {
+	  ret += group+',#genre#\n';
+	  for(channel in tvChannelGroups[group]) {
+		  ret += tvChannelGroups[group][channel]+'\n'
+	  }
+  }
+  console.log(ret)
+  return ret;
+}
+
 async function loadexturl() {
   fs.writeFile(channelTxt, '', { flag: 'w+' }, err => {});
   fs.writeFile(channelM3u, '', { flag: 'w+' }, err => {});
@@ -194,9 +291,11 @@ async function loadexturl() {
 
     var content = await geturlcontent(url);
     if (content) {
-      ret += await checkallurl(content);
+		ret += await checkallurl(content);
     }
   }, "");
+
+  ret = regroup(ret);
   
   // 获取全部可用链接后，统一写入
   fs.writeFile(channelTxt, ret.trim(), { flag: 'w+' }, err => {});
@@ -206,7 +305,7 @@ async function loadexturl() {
   fs.writeFile(channelM3u, m3u_txt, {flag: 'w+'}, err => {});
 
   // push到 github
-  await pushgit();
+  //await pushgit();
   console.log("状态:", "over");
   // process.exit(0);
 }
@@ -215,3 +314,25 @@ console.log("开始测试live地址并保存");
 loadexturl();
 
 // pushgit();
+
+let cctvRegx = /^CCTV[1-9][+0-9]?\s*,/
+let cctvMap = {
+    'CCTV1':"CCTV-1 综合,",
+    'CCTV2':"CCTV-2 财经,",
+    'CCTV3':"CCTV-3 综艺,",
+    'CCTV4':"CCTV-4 中文国际,",
+    'CCTV5':"CCTV-5 体育,",
+    'CCTV5+':"CCTV-5+ 体育赛事,",
+    'CCTV6':"CCTV-6 电影,",
+    'CCTV7':"CCTV-7 国防军事,",
+    'CCTV8':"CCTV-8 电视剧,",
+    'CCTV9':"CCTV-9 纪录,",
+    'CCTV10':"CCTV-10 科教,",
+    'CCTV11':"CCTV-11 戏曲,",
+    'CCTV12':"CCTV-12 社会与法,",
+    'CCTV13':"CCTV-13 新闻,",
+    'CCTV14':"CCTV-14 少儿,",
+    'CCTV15':"CCTV-15 音乐,",
+    'CCTV16':"CCTV-16 奥林匹克,",
+    'CCTV17':"CCTV-17 农业农村,"
+}
