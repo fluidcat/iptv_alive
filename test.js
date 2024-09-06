@@ -217,7 +217,7 @@ function regroup(channels) {
 
   for(let group in channelGroups) {
 	  // 某些组直接归类：
-	  if(/CCTV|央视|体育类/.test(group)) {
+	  if(/CCTV|央视|体育类/.test(group) && !group.includes('CCTV-Live')) {
 		  tvChannelGroups['央视频道'].push(...channelGroups[group])
 	  }
 	  else if(/卫视|综合/.test(group)) {
