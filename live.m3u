@@ -1,161 +1,161 @@
 #EXTM3U x-tvg-url=https://live.fanmingming.com/e.xml
-#EXTINF:-1 tvg-name=Õã½­ÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/Õã½­ÎÀÊÓ.png group-title=×ÛºÏ,Õã½­ÎÀÊÓ
+#EXTINF:-1 tvg-name=æµ™æ±Ÿå«è§† tvg-logo=https://live.fanmingming.com/tv/æµ™æ±Ÿå«è§†.png group-title=ç»¼åˆ,æµ™æ±Ÿå«è§†
 http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-#EXTINF:-1 tvg-name=ÒåÎÚĞÂÎÅ×ÛºÏ tvg-logo=https://live.fanmingming.com/tv/ÒåÎÚĞÂÎÅ×ÛºÏ.png group-title=Ğ¡µØ·½,ÒåÎÚĞÂÎÅ×ÛºÏ
+#EXTINF:-1 tvg-name=ä¹‰ä¹Œæ–°é—»ç»¼åˆ tvg-logo=https://live.fanmingming.com/tv/ä¹‰ä¹Œæ–°é—»ç»¼åˆ.png group-title=å°åœ°æ–¹,ä¹‰ä¹Œæ–°é—»ç»¼åˆ
 https://44911.hlsplay.aodianyun.com/tv_radio_44911/tv_channel_1796.m3u8?auth_key=4830573978-0-0-92824c2c03f95906a3c49a4aa28f1709&extra_key=Yc1XsmxOKy2UBoPM4Wy5vCPsEYqnj06taCR2SRB2Xrg2w28NPilH03KdIbbM5wgSql-VBohSnoO9AOKl94q2t2DWMftz-XB-2qUX-UjXcS80StcSZahBFjrKLivXaRjiY5r2NOMKWMKFbv-S0Bz2G6iEXgCK8yGjtrFHDcPfAQEE0pvXq0Bwy34b7We8zARN&ali_ffmpeg_version=mpengine
-#EXTINF:-1 tvg-name=Õã½­Ç®½­¶¼ÊĞ tvg-logo=https://live.fanmingming.com/tv/Õã½­Ç®½­¶¼ÊĞ.png group-title=Ğ¡µØ·½,Õã½­Ç®½­¶¼ÊĞ
+#EXTINF:-1 tvg-name=æµ™æ±Ÿé’±æ±Ÿéƒ½å¸‚ tvg-logo=https://live.fanmingming.com/tv/æµ™æ±Ÿé’±æ±Ÿéƒ½å¸‚.png group-title=å°åœ°æ–¹,æµ™æ±Ÿé’±æ±Ÿéƒ½å¸‚
 http://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
-#EXTINF:-1 tvg-name=Õã½­¾­¼ÃÉú»î tvg-logo=https://live.fanmingming.com/tv/Õã½­¾­¼ÃÉú»î.png group-title=Ğ¡µØ·½,Õã½­¾­¼ÃÉú»î
+#EXTINF:-1 tvg-name=æµ™æ±Ÿç»æµç”Ÿæ´» tvg-logo=https://live.fanmingming.com/tv/æµ™æ±Ÿç»æµç”Ÿæ´».png group-title=å°åœ°æ–¹,æµ™æ±Ÿç»æµç”Ÿæ´»
 http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
-#EXTINF:-1 tvg-name=Õã½­½Ì¿ÆÓ°Ôº tvg-logo=https://live.fanmingming.com/tv/Õã½­½Ì¿ÆÓ°Ôº.png group-title=Ğ¡µØ·½,Õã½­½Ì¿ÆÓ°Ôº
+#EXTINF:-1 tvg-name=æµ™æ±Ÿæ•™ç§‘å½±é™¢ tvg-logo=https://live.fanmingming.com/tv/æµ™æ±Ÿæ•™ç§‘å½±é™¢.png group-title=å°åœ°æ–¹,æµ™æ±Ÿæ•™ç§‘å½±é™¢
 http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
-#EXTINF:-1 tvg-name=Õã½­ÃñÉúĞİÏĞ tvg-logo=https://live.fanmingming.com/tv/Õã½­ÃñÉúĞİÏĞ.png group-title=Ğ¡µØ·½,Õã½­ÃñÉúĞİÏĞ
+#EXTINF:-1 tvg-name=æµ™æ±Ÿæ°‘ç”Ÿä¼‘é—² tvg-logo=https://live.fanmingming.com/tv/æµ™æ±Ÿæ°‘ç”Ÿä¼‘é—².png group-title=å°åœ°æ–¹,æµ™æ±Ÿæ°‘ç”Ÿä¼‘é—²
 http://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
-#EXTINF:-1 tvg-name=Õã½­ĞÂÎÅ tvg-logo=https://live.fanmingming.com/tv/Õã½­ĞÂÎÅ.png group-title=Ğ¡µØ·½,Õã½­ĞÂÎÅ
+#EXTINF:-1 tvg-name=æµ™æ±Ÿæ–°é—» tvg-logo=https://live.fanmingming.com/tv/æµ™æ±Ÿæ–°é—».png group-title=å°åœ°æ–¹,æµ™æ±Ÿæ–°é—»
 http://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
-#EXTINF:-1 tvg-name=Õã½­ÉÙ¶ù tvg-logo=https://live.fanmingming.com/tv/Õã½­ÉÙ¶ù.png group-title=Ğ¡µØ·½,Õã½­ÉÙ¶ù
+#EXTINF:-1 tvg-name=æµ™æ±Ÿå°‘å„¿ tvg-logo=https://live.fanmingming.com/tv/æµ™æ±Ÿå°‘å„¿.png group-title=å°åœ°æ–¹,æµ™æ±Ÿå°‘å„¿
 http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-#EXTINF:-1 tvg-name=ÖĞ¹úÀ¶ĞÂÎÅ tvg-logo=https://live.fanmingming.com/tv/ÖĞ¹úÀ¶ĞÂÎÅ.png group-title=Ğ¡µØ·½,ÖĞ¹úÀ¶ĞÂÎÅ
+#EXTINF:-1 tvg-name=ä¸­å›½è“æ–°é—» tvg-logo=https://live.fanmingming.com/tv/ä¸­å›½è“æ–°é—».png group-title=å°åœ°æ–¹,ä¸­å›½è“æ–°é—»
 http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8
-#EXTINF:-1 tvg-name=Õã½­¹ú¼Ê tvg-logo=https://live.fanmingming.com/tv/Õã½­¹ú¼Ê.png group-title=Ğ¡µØ·½,Õã½­¹ú¼Ê
+#EXTINF:-1 tvg-name=æµ™æ±Ÿå›½é™… tvg-logo=https://live.fanmingming.com/tv/æµ™æ±Ÿå›½é™….png group-title=å°åœ°æ–¹,æµ™æ±Ÿå›½é™…
 http://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
-#EXTINF:-1 tvg-name=ÊıÂëÊ±´ú tvg-logo=https://live.fanmingming.com/tv/ÊıÂëÊ±´ú.png group-title=Ğ¡µØ·½,ÊıÂëÊ±´ú
+#EXTINF:-1 tvg-name=æ•°ç æ—¶ä»£ tvg-logo=https://live.fanmingming.com/tv/æ•°ç æ—¶ä»£.png group-title=å°åœ°æ–¹,æ•°ç æ—¶ä»£
 http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
-#EXTINF:-1 tvg-name=ÎäÒåĞÂÎÅ×ÛºÏ tvg-logo=https://live.fanmingming.com/tv/ÎäÒåĞÂÎÅ×ÛºÏ.png group-title=Ğ¡µØ·½,ÎäÒåĞÂÎÅ×ÛºÏ
+#EXTINF:-1 tvg-name=æ­¦ä¹‰æ–°é—»ç»¼åˆ tvg-logo=https://live.fanmingming.com/tv/æ­¦ä¹‰æ–°é—»ç»¼åˆ.png group-title=å°åœ°æ–¹,æ­¦ä¹‰æ–°é—»ç»¼åˆ
 http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=Æ½ºşĞÂÎÅ×ÛºÏ tvg-logo=https://live.fanmingming.com/tv/Æ½ºşĞÂÎÅ×ÛºÏ.png group-title=Ğ¡µØ·½,Æ½ºşĞÂÎÅ×ÛºÏ
+#EXTINF:-1 tvg-name=å¹³æ¹–æ–°é—»ç»¼åˆ tvg-logo=https://live.fanmingming.com/tv/å¹³æ¹–æ–°é—»ç»¼åˆ.png group-title=å°åœ°æ–¹,å¹³æ¹–æ–°é—»ç»¼åˆ
 http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=Æ½ºşÃñÉúĞİÏĞ tvg-logo=https://live.fanmingming.com/tv/Æ½ºşÃñÉúĞİÏĞ.png group-title=Ğ¡µØ·½,Æ½ºşÃñÉúĞİÏĞ
+#EXTINF:-1 tvg-name=å¹³æ¹–æ°‘ç”Ÿä¼‘é—² tvg-logo=https://live.fanmingming.com/tv/å¹³æ¹–æ°‘ç”Ÿä¼‘é—².png group-title=å°åœ°æ–¹,å¹³æ¹–æ°‘ç”Ÿä¼‘é—²
 http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=ÏôÉ½ĞÂÎÅ×ÛºÏ tvg-logo=https://live.fanmingming.com/tv/ÏôÉ½ĞÂÎÅ×ÛºÏ.png group-title=Ğ¡µØ·½,ÏôÉ½ĞÂÎÅ×ÛºÏ
+#EXTINF:-1 tvg-name=è§å±±æ–°é—»ç»¼åˆ tvg-logo=https://live.fanmingming.com/tv/è§å±±æ–°é—»ç»¼åˆ.png group-title=å°åœ°æ–¹,è§å±±æ–°é—»ç»¼åˆ
 http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=ÏôÉ½Éú»îÆµµÀ tvg-logo=https://live.fanmingming.com/tv/ÏôÉ½Éú»îÆµµÀ.png group-title=Ğ¡µØ·½,ÏôÉ½Éú»îÆµµÀ
+#EXTINF:-1 tvg-name=è§å±±ç”Ÿæ´»é¢‘é“ tvg-logo=https://live.fanmingming.com/tv/è§å±±ç”Ÿæ´»é¢‘é“.png group-title=å°åœ°æ–¹,è§å±±ç”Ÿæ´»é¢‘é“
 http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=´¾°²µçÊÓÌ¨ tvg-logo=https://live.fanmingming.com/tv/´¾°²µçÊÓÌ¨.png group-title=Ğ¡µØ·½,´¾°²µçÊÓÌ¨
+#EXTINF:-1 tvg-name=æ·³å®‰ç”µè§†å° tvg-logo=https://live.fanmingming.com/tv/æ·³å®‰ç”µè§†å°.png group-title=å°åœ°æ–¹,æ·³å®‰ç”µè§†å°
 https://wtmtyoutlive.watonemt.com/f2p7vq/lf76v9.m3u8?zzhed
-#EXTINF:-1 tvg-name=Óàº¼×ÛºÏÆµµÀ tvg-logo=https://live.fanmingming.com/tv/Óàº¼×ÛºÏÆµµÀ.png group-title=Ğ¡µØ·½,Óàº¼×ÛºÏÆµµÀ
+#EXTINF:-1 tvg-name=ä½™æ­ç»¼åˆé¢‘é“ tvg-logo=https://live.fanmingming.com/tv/ä½™æ­ç»¼åˆé¢‘é“.png group-title=å°åœ°æ–¹,ä½™æ­ç»¼åˆé¢‘é“
 http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=Óàº¼Î´À´EÆµµÀ tvg-logo=https://live.fanmingming.com/tv/Óàº¼Î´À´EÆµµÀ.png group-title=Ğ¡µØ·½,Óàº¼Î´À´EÆµµÀ
+#EXTINF:-1 tvg-name=ä½™æ­æœªæ¥Eé¢‘é“ tvg-logo=https://live.fanmingming.com/tv/ä½™æ­æœªæ¥Eé¢‘é“.png group-title=å°åœ°æ–¹,ä½™æ­æœªæ¥Eé¢‘é“
 http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=ÓàÒ¦ĞÂÎÅ×ÛºÏ tvg-logo=https://live.fanmingming.com/tv/ÓàÒ¦ĞÂÎÅ×ÛºÏ.png group-title=Ğ¡µØ·½,ÓàÒ¦ĞÂÎÅ×ÛºÏ
+#EXTINF:-1 tvg-name=ä½™å§šæ–°é—»ç»¼åˆ tvg-logo=https://live.fanmingming.com/tv/ä½™å§šæ–°é—»ç»¼åˆ.png group-title=å°åœ°æ–¹,ä½™å§šæ–°é—»ç»¼åˆ
 http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=ÓàÒ¦Ò¦½­ÎÄ»¯ tvg-logo=https://live.fanmingming.com/tv/ÓàÒ¦Ò¦½­ÎÄ»¯.png group-title=Ğ¡µØ·½,ÓàÒ¦Ò¦½­ÎÄ»¯
+#EXTINF:-1 tvg-name=ä½™å§šå§šæ±Ÿæ–‡åŒ– tvg-logo=https://live.fanmingming.com/tv/ä½™å§šå§šæ±Ÿæ–‡åŒ–.png group-title=å°åœ°æ–¹,ä½™å§šå§šæ±Ÿæ–‡åŒ–
 http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=áÓÖİĞÂÎÅ×ÛºÏ tvg-logo=https://live.fanmingming.com/tv/áÓÖİĞÂÎÅ×ÛºÏ.png group-title=Ğ¡µØ·½,áÓÖİĞÂÎÅ×ÛºÏ
+#EXTINF:-1 tvg-name=åµŠå·æ–°é—»ç»¼åˆ tvg-logo=https://live.fanmingming.com/tv/åµŠå·æ–°é—»ç»¼åˆ.png group-title=å°åœ°æ–¹,åµŠå·æ–°é—»ç»¼åˆ
 http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=ÖîôßĞÂÎÅ×ÛºÏ tvg-logo=https://live.fanmingming.com/tv/ÖîôßĞÂÎÅ×ÛºÏ.png group-title=Ğ¡µØ·½,ÖîôßĞÂÎÅ×ÛºÏ
+#EXTINF:-1 tvg-name=è¯¸æš¨æ–°é—»ç»¼åˆ tvg-logo=https://live.fanmingming.com/tv/è¯¸æš¨æ–°é—»ç»¼åˆ.png group-title=å°åœ°æ–¹,è¯¸æš¨æ–°é—»ç»¼åˆ
 http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=ÉÏÓİĞÂÎÅ×ÛºÏ tvg-logo=https://live.fanmingming.com/tv/ÉÏÓİĞÂÎÅ×ÛºÏ.png group-title=Ğ¡µØ·½,ÉÏÓİĞÂÎÅ×ÛºÏ
+#EXTINF:-1 tvg-name=ä¸Šè™æ–°é—»ç»¼åˆ tvg-logo=https://live.fanmingming.com/tv/ä¸Šè™æ–°é—»ç»¼åˆ.png group-title=å°åœ°æ–¹,ä¸Šè™æ–°é—»ç»¼åˆ
 http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=ÉÏÓİÎÄ»¯Ó°Ôº tvg-logo=https://live.fanmingming.com/tv/ÉÏÓİÎÄ»¯Ó°Ôº.png group-title=Ğ¡µØ·½,ÉÏÓİÎÄ»¯Ó°Ôº
+#EXTINF:-1 tvg-name=ä¸Šè™æ–‡åŒ–å½±é™¢ tvg-logo=https://live.fanmingming.com/tv/ä¸Šè™æ–‡åŒ–å½±é™¢.png group-title=å°åœ°æ–¹,ä¸Šè™æ–‡åŒ–å½±é™¢
 http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=ÉÏÓİĞÂÉÌ¶¼ tvg-logo=https://live.fanmingming.com/tv/ÉÏÓİĞÂÉÌ¶¼.png group-title=Ğ¡µØ·½,ÉÏÓİĞÂÉÌ¶¼
+#EXTINF:-1 tvg-name=ä¸Šè™æ–°å•†éƒ½ tvg-logo=https://live.fanmingming.com/tv/ä¸Šè™æ–°å•†éƒ½.png group-title=å°åœ°æ–¹,ä¸Šè™æ–°å•†éƒ½
 http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=À¼ÏªĞÂÎÅ×ÛºÏ tvg-logo=https://live.fanmingming.com/tv/À¼ÏªĞÂÎÅ×ÛºÏ.png group-title=Ğ¡µØ·½,À¼ÏªĞÂÎÅ×ÛºÏ
+#EXTINF:-1 tvg-name=å…°æºªæ–°é—»ç»¼åˆ tvg-logo=https://live.fanmingming.com/tv/å…°æºªæ–°é—»ç»¼åˆ.png group-title=å°åœ°æ–¹,å…°æºªæ–°é—»ç»¼åˆ
 http://l.cztvcloud.com/channels/lantian/SXlanxi1/720p.m3u8?zzhed
-#EXTINF:-1 tvg-name=CCTV1 tvg-logo=https://live.fanmingming.com/tv/CCTV1.png group-title=IPV6,CCTV-1 ×ÛºÏ
+#EXTINF:-1 tvg-name=CCTV1 tvg-logo=https://live.fanmingming.com/tv/CCTV1.png group-title=IPV6,CCTV-1 ç»¼åˆ
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8
-#EXTINF:-1 tvg-name=CCTV2 tvg-logo=https://live.fanmingming.com/tv/CCTV2.png group-title=IPV6,CCTV-2 ²Æ¾­
+#EXTINF:-1 tvg-name=CCTV2 tvg-logo=https://live.fanmingming.com/tv/CCTV2.png group-title=IPV6,CCTV-2 è´¢ç»
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226540/index.m3u8
-#EXTINF:-1 tvg-name=CCTV3 tvg-logo=https://live.fanmingming.com/tv/CCTV3.png group-title=IPV6,CCTV-3 ×ÛÒÕ
+#EXTINF:-1 tvg-name=CCTV3 tvg-logo=https://live.fanmingming.com/tv/CCTV3.png group-title=IPV6,CCTV-3 ç»¼è‰º
 http://[2409:8087:1a01:df::4077]:80/PLTV/88888888/224/3221225799/index.m3u8
-#EXTINF:-1 tvg-name=CCTV4 tvg-logo=https://live.fanmingming.com/tv/CCTV4.png group-title=IPV6,CCTV-4 ÖĞÎÄ¹ú¼Ê
+#EXTINF:-1 tvg-name=CCTV4 tvg-logo=https://live.fanmingming.com/tv/CCTV4.png group-title=IPV6,CCTV-4 ä¸­æ–‡å›½é™…
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226428/index.m3u8
-#EXTINF:-1 tvg-name=CCTV5 tvg-logo=https://live.fanmingming.com/tv/CCTV5.png group-title=IPV6,CCTV-5 ÌåÓı
+#EXTINF:-1 tvg-name=CCTV5 tvg-logo=https://live.fanmingming.com/tv/CCTV5.png group-title=IPV6,CCTV-5 ä½“è‚²
 http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
-#EXTINF:-1 tvg-name=CCTV5 tvg-logo=https://live.fanmingming.com/tv/CCTV5.png group-title=IPV6,CCTV-5+ ÌåÓıÈüÊÂ
+#EXTINF:-1 tvg-name=CCTV5 tvg-logo=https://live.fanmingming.com/tv/CCTV5.png group-title=IPV6,CCTV-5+ ä½“è‚²èµ›äº‹
 http://[2409:8087:1a01:df::4077]:80/PLTV/88888888/224/3221225507/index.m3u8
-#EXTINF:-1 tvg-name=CCTV7 tvg-logo=https://live.fanmingming.com/tv/CCTV7.png group-title=IPV6,CCTV-7 ¹ú·À¾üÊÂ
+#EXTINF:-1 tvg-name=CCTV7 tvg-logo=https://live.fanmingming.com/tv/CCTV7.png group-title=IPV6,CCTV-7 å›½é˜²å†›äº‹
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225733/index.m3u8
-#EXTINF:-1 tvg-name=CCTV8 tvg-logo=https://live.fanmingming.com/tv/CCTV8.png group-title=IPV6,CCTV-8 µçÊÓ¾ç
+#EXTINF:-1 tvg-name=CCTV8 tvg-logo=https://live.fanmingming.com/tv/CCTV8.png group-title=IPV6,CCTV-8 ç”µè§†å‰§
 http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226008/index.m3u8
-#EXTINF:-1 tvg-name=CCTV9 tvg-logo=https://live.fanmingming.com/tv/CCTV9.png group-title=IPV6,CCTV-9 ¼ÍÂ¼
+#EXTINF:-1 tvg-name=CCTV9 tvg-logo=https://live.fanmingming.com/tv/CCTV9.png group-title=IPV6,CCTV-9 çºªå½•
 http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/index.m3u8
-#EXTINF:-1 tvg-name=CCTV10 tvg-logo=https://live.fanmingming.com/tv/CCTV10.png group-title=IPV6,CCTV-10 ¿Æ½Ì
+#EXTINF:-1 tvg-name=CCTV10 tvg-logo=https://live.fanmingming.com/tv/CCTV10.png group-title=IPV6,CCTV-10 ç§‘æ•™
 http://[2409:8087:1a01:df::4077]:80/PLTV/88888888/224/3221225677/index.m3u8
-#EXTINF:-1 tvg-name=CCTV11 tvg-logo=https://live.fanmingming.com/tv/CCTV11.png group-title=IPV6,CCTV-11 Ï·Çú
+#EXTINF:-1 tvg-name=CCTV11 tvg-logo=https://live.fanmingming.com/tv/CCTV11.png group-title=IPV6,CCTV-11 æˆæ›²
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226565/index.m3u8
-#EXTINF:-1 tvg-name=CCTV12 tvg-logo=https://live.fanmingming.com/tv/CCTV12.png group-title=IPV6,CCTV-12 Éç»áÓë·¨
+#EXTINF:-1 tvg-name=CCTV12 tvg-logo=https://live.fanmingming.com/tv/CCTV12.png group-title=IPV6,CCTV-12 ç¤¾ä¼šä¸æ³•
 http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225731/index.m3u8
-#EXTINF:-1 tvg-name=CCTV13 tvg-logo=https://live.fanmingming.com/tv/CCTV13.png group-title=IPV6,CCTV-13 ĞÂÎÅ
+#EXTINF:-1 tvg-name=CCTV13 tvg-logo=https://live.fanmingming.com/tv/CCTV13.png group-title=IPV6,CCTV-13 æ–°é—»
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
-#EXTINF:-1 tvg-name=CCTV14 tvg-logo=https://live.fanmingming.com/tv/CCTV14.png group-title=IPV6,CCTV-14 ÉÙ¶ù
+#EXTINF:-1 tvg-name=CCTV14 tvg-logo=https://live.fanmingming.com/tv/CCTV14.png group-title=IPV6,CCTV-14 å°‘å„¿
 http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/index.m3u8
-#EXTINF:-1 tvg-name=CCTV15 tvg-logo=https://live.fanmingming.com/tv/CCTV15.png group-title=IPV6,CCTV-15 ÒôÀÖ
+#EXTINF:-1 tvg-name=CCTV15 tvg-logo=https://live.fanmingming.com/tv/CCTV15.png group-title=IPV6,CCTV-15 éŸ³ä¹
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226476/index.m3u8
-#EXTINF:-1 tvg-name=CCTV16 tvg-logo=https://live.fanmingming.com/tv/CCTV16.png group-title=IPV6,CCTV-16 °ÂÁÖÆ¥¿Ë
+#EXTINF:-1 tvg-name=CCTV16 tvg-logo=https://live.fanmingming.com/tv/CCTV16.png group-title=IPV6,CCTV-16 å¥¥æ—åŒ¹å…‹
 http://[2409:8087:1a01:df::4077]:80/PLTV/88888888/224/3221225893/index.m3u8
-#EXTINF:-1 tvg-name=CCTV17 tvg-logo=https://live.fanmingming.com/tv/CCTV17.png group-title=IPV6,CCTV-17 Å©ÒµÅ©´å
+#EXTINF:-1 tvg-name=CCTV17 tvg-logo=https://live.fanmingming.com/tv/CCTV17.png group-title=IPV6,CCTV-17 å†œä¸šå†œæ‘
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
-#EXTINF:-1 tvg-name=CCTV4 tvg-logo=https://live.fanmingming.com/tv/CCTV4.png group-title=IPV6,CCTV-4K ³¬¸ßÇå
+#EXTINF:-1 tvg-name=CCTV4 tvg-logo=https://live.fanmingming.com/tv/CCTV4.png group-title=IPV6,CCTV-4K è¶…é«˜æ¸…
 http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/playlist.m3u8
-#EXTINF:-1 tvg-name=CCTV8 tvg-logo=https://live.fanmingming.com/tv/CCTV8.png group-title=IPV6,CCTV-8K ³¬¸ßÇå
+#EXTINF:-1 tvg-name=CCTV8 tvg-logo=https://live.fanmingming.com/tv/CCTV8.png group-title=IPV6,CCTV-8K è¶…é«˜æ¸…
 https://tv.cry33.com/ys4k.php?id=8k
-#EXTINF:-1 tvg-name=·ï»ËÖĞÎÄ tvg-logo=https://live.fanmingming.com/tv/·ï»ËÖĞÎÄ.png group-title=IPV6,·ï»ËÖĞÎÄ
+#EXTINF:-1 tvg-name=å‡¤å‡°ä¸­æ–‡ tvg-logo=https://live.fanmingming.com/tv/å‡¤å‡°ä¸­æ–‡.png group-title=IPV6,å‡¤å‡°ä¸­æ–‡
 http://play-flive.ifeng.com/live/06OLEGEGM4G.m3u8
-#EXTINF:-1 tvg-name=·ï»Ë×ÊÑ¶ tvg-logo=https://live.fanmingming.com/tv/·ï»Ë×ÊÑ¶.png group-title=IPV6,·ï»Ë×ÊÑ¶
+#EXTINF:-1 tvg-name=å‡¤å‡°èµ„è®¯ tvg-logo=https://live.fanmingming.com/tv/å‡¤å‡°èµ„è®¯.png group-title=IPV6,å‡¤å‡°èµ„è®¯
 http://play-flive.ifeng.com/live/06OLEEWQKN4.m3u8
-#EXTINF:-1 tvg-name=ÉîÛÚÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/ÉîÛÚÎÀÊÓ.png group-title=IPV6,ÉîÛÚÎÀÊÓ
+#EXTINF:-1 tvg-name=æ·±åœ³å«è§† tvg-logo=https://live.fanmingming.com/tv/æ·±åœ³å«è§†.png group-title=IPV6,æ·±åœ³å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226313/index.m3u8
-#EXTINF:-1 tvg-name=ÖØÇìÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/ÖØÇìÎÀÊÓ.png group-title=IPV6,ÖØÇìÎÀÊÓ
+#EXTINF:-1 tvg-name=é‡åº†å«è§† tvg-logo=https://live.fanmingming.com/tv/é‡åº†å«è§†.png group-title=IPV6,é‡åº†å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226409/index.m3u8
-#EXTINF:-1 tvg-name=¹ã¶«ÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/¹ã¶«ÎÀÊÓ.png group-title=IPV6,¹ã¶«ÎÀÊÓ
+#EXTINF:-1 tvg-name=å¹¿ä¸œå«è§† tvg-logo=https://live.fanmingming.com/tv/å¹¿ä¸œå«è§†.png group-title=IPV6,å¹¿ä¸œå«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226248/index.m3u8
-#EXTINF:-1 tvg-name=±±¾©ÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/±±¾©ÎÀÊÓ.png group-title=IPV6,±±¾©ÎÀÊÓ
+#EXTINF:-1 tvg-name=åŒ—äº¬å«è§† tvg-logo=https://live.fanmingming.com/tv/åŒ—äº¬å«è§†.png group-title=IPV6,åŒ—äº¬å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226450/index.m3u8
-#EXTINF:-1 tvg-name=ºşÄÏÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/ºşÄÏÎÀÊÓ.png group-title=IPV6,ºşÄÏÎÀÊÓ
+#EXTINF:-1 tvg-name=æ¹–å—å«è§† tvg-logo=https://live.fanmingming.com/tv/æ¹–å—å«è§†.png group-title=IPV6,æ¹–å—å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226307/index.m3u8
-#EXTINF:-1 tvg-name=¶«·½ÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/¶«·½ÎÀÊÓ.png group-title=IPV6,¶«·½ÎÀÊÓ
+#EXTINF:-1 tvg-name=ä¸œæ–¹å«è§† tvg-logo=https://live.fanmingming.com/tv/ä¸œæ–¹å«è§†.png group-title=IPV6,ä¸œæ–¹å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226345/index.m3u8
-#EXTINF:-1 tvg-name=ËÄ´¨ÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/ËÄ´¨ÎÀÊÓ.png group-title=IPV6,ËÄ´¨ÎÀÊÓ
+#EXTINF:-1 tvg-name=å››å·å«è§† tvg-logo=https://live.fanmingming.com/tv/å››å·å«è§†.png group-title=IPV6,å››å·å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226338/index.m3u8
-#EXTINF:-1 tvg-name=Ìì½òÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/Ìì½òÎÀÊÓ.png group-title=IPV6,Ìì½òÎÀÊÓ
+#EXTINF:-1 tvg-name=å¤©æ´¥å«è§† tvg-logo=https://live.fanmingming.com/tv/å¤©æ´¥å«è§†.png group-title=IPV6,å¤©æ´¥å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226459/index.m3u8
-#EXTINF:-1 tvg-name=°²»ÕÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/°²»ÕÎÀÊÓ.png group-title=IPV6,°²»ÕÎÀÊÓ
+#EXTINF:-1 tvg-name=å®‰å¾½å«è§† tvg-logo=https://live.fanmingming.com/tv/å®‰å¾½å«è§†.png group-title=IPV6,å®‰å¾½å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226391/index.m3u8
-#EXTINF:-1 tvg-name=É½¶«ÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/É½¶«ÎÀÊÓ.png group-title=IPV6,É½¶«ÎÀÊÓ
+#EXTINF:-1 tvg-name=å±±ä¸œå«è§† tvg-logo=https://live.fanmingming.com/tv/å±±ä¸œå«è§†.png group-title=IPV6,å±±ä¸œå«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226456/index.m3u8
-#EXTINF:-1 tvg-name=¹ãÎ÷ÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/¹ãÎ÷ÎÀÊÓ.png group-title=IPV6,¹ãÎ÷ÎÀÊÓ
+#EXTINF:-1 tvg-name=å¹¿è¥¿å«è§† tvg-logo=https://live.fanmingming.com/tv/å¹¿è¥¿å«è§†.png group-title=IPV6,å¹¿è¥¿å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226549/index.m3u8
-#EXTINF:-1 tvg-name=½­ËÕÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/½­ËÕÎÀÊÓ.png group-title=IPV6,½­ËÕÎÀÊÓ
+#EXTINF:-1 tvg-name=æ±Ÿè‹å«è§† tvg-logo=https://live.fanmingming.com/tv/æ±Ÿè‹å«è§†.png group-title=IPV6,æ±Ÿè‹å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226310/index.m3u8
-#EXTINF:-1 tvg-name=½­Î÷ÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/½­Î÷ÎÀÊÓ.png group-title=IPV6,½­Î÷ÎÀÊÓ
+#EXTINF:-1 tvg-name=æ±Ÿè¥¿å«è§† tvg-logo=https://live.fanmingming.com/tv/æ±Ÿè¥¿å«è§†.png group-title=IPV6,æ±Ÿè¥¿å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226344/index.m3u8
-#EXTINF:-1 tvg-name=ºÓ±±ÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/ºÓ±±ÎÀÊÓ.png group-title=IPV6,ºÓ±±ÎÀÊÓ
+#EXTINF:-1 tvg-name=æ²³åŒ—å«è§† tvg-logo=https://live.fanmingming.com/tv/æ²³åŒ—å«è§†.png group-title=IPV6,æ²³åŒ—å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226406/index.m3u8
-#EXTINF:-1 tvg-name=ºÓÄÏÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/ºÓÄÏÎÀÊÓ.png group-title=IPV6,ºÓÄÏÎÀÊÓ
+#EXTINF:-1 tvg-name=æ²³å—å«è§† tvg-logo=https://live.fanmingming.com/tv/æ²³å—å«è§†.png group-title=IPV6,æ²³å—å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8
-#EXTINF:-1 tvg-name=Õã½­ÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/Õã½­ÎÀÊÓ.png group-title=IPV6,Õã½­ÎÀÊÓ
+#EXTINF:-1 tvg-name=æµ™æ±Ÿå«è§† tvg-logo=https://live.fanmingming.com/tv/æµ™æ±Ÿå«è§†.png group-title=IPV6,æµ™æ±Ÿå«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226339/index.m3u8
-#EXTINF:-1 tvg-name=º£ÄÏÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/º£ÄÏÎÀÊÓ.png group-title=IPV6,º£ÄÏÎÀÊÓ
+#EXTINF:-1 tvg-name=æµ·å—å«è§† tvg-logo=https://live.fanmingming.com/tv/æµ·å—å«è§†.png group-title=IPV6,æµ·å—å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
-#EXTINF:-1 tvg-name=ºş±±ÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/ºş±±ÎÀÊÓ.png group-title=IPV6,ºş±±ÎÀÊÓ
+#EXTINF:-1 tvg-name=æ¹–åŒ—å«è§† tvg-logo=https://live.fanmingming.com/tv/æ¹–åŒ—å«è§†.png group-title=IPV6,æ¹–åŒ—å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226477/index.m3u8
-#EXTINF:-1 tvg-name=¶«ÄÏÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/¶«ÄÏÎÀÊÓ.png group-title=IPV6,¶«ÄÏÎÀÊÓ
+#EXTINF:-1 tvg-name=ä¸œå—å«è§† tvg-logo=https://live.fanmingming.com/tv/ä¸œå—å«è§†.png group-title=IPV6,ä¸œå—å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226341/index.m3u8
-#EXTINF:-1 tvg-name=¹óÖİÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/¹óÖİÎÀÊÓ.png group-title=IPV6,¹óÖİÎÀÊÓ
+#EXTINF:-1 tvg-name=è´µå·å«è§† tvg-logo=https://live.fanmingming.com/tv/è´µå·å«è§†.png group-title=IPV6,è´µå·å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
-#EXTINF:-1 tvg-name=ÁÉÄşÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/ÁÉÄşÎÀÊÓ.png group-title=IPV6,ÁÉÄşÎÀÊÓ
+#EXTINF:-1 tvg-name=è¾½å®å«è§† tvg-logo=https://live.fanmingming.com/tv/è¾½å®å«è§†.png group-title=IPV6,è¾½å®å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226546/index.m3u8
-#EXTINF:-1 tvg-name=ºÚÁú½­ÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/ºÚÁú½­ÎÀÊÓ.png group-title=IPV6,ºÚÁú½­ÎÀÊÓ
+#EXTINF:-1 tvg-name=é»‘é¾™æ±Ÿå«è§† tvg-logo=https://live.fanmingming.com/tv/é»‘é¾™æ±Ÿå«è§†.png group-title=IPV6,é»‘é¾™æ±Ÿå«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226327/index.m3u8
-#EXTINF:-1 tvg-name=¸ÊËàÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/¸ÊËàÎÀÊÓ.png group-title=IPV6,¸ÊËàÎÀÊÓ
+#EXTINF:-1 tvg-name=ç”˜è‚ƒå«è§† tvg-logo=https://live.fanmingming.com/tv/ç”˜è‚ƒå«è§†.png group-title=IPV6,ç”˜è‚ƒå«è§†
 http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225633/index.m3u8
-#EXTINF:-1 tvg-name=¼ªÁÖÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/¼ªÁÖÎÀÊÓ.png group-title=IPV6,¼ªÁÖÎÀÊÓ
+#EXTINF:-1 tvg-name=å‰æ—å«è§† tvg-logo=https://live.fanmingming.com/tv/å‰æ—å«è§†.png group-title=IPV6,å‰æ—å«è§†
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226397/index.m3u8
-#EXTINF:-1 tvg-name=Çàº£ÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/Çàº£ÎÀÊÓ.png group-title=IPV6,Çàº£ÎÀÊÓ
+#EXTINF:-1 tvg-name=é’æµ·å«è§† tvg-logo=https://live.fanmingming.com/tv/é’æµ·å«è§†.png group-title=IPV6,é’æµ·å«è§†
 http://[2409:8087:1a0b:df::4002]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225628/index.m3u8
-#EXTINF:-1 tvg-name=ĞÂ½®ÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/ĞÂ½®ÎÀÊÓ.png group-title=IPV6,ĞÂ½®ÎÀÊÓ
+#EXTINF:-1 tvg-name=æ–°ç–†å«è§† tvg-logo=https://live.fanmingming.com/tv/æ–°ç–†å«è§†.png group-title=IPV6,æ–°ç–†å«è§†
 http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225635/index.m3u8
-#EXTINF:-1 tvg-name=±øÍÅÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/±øÍÅÎÀÊÓ.png group-title=IPV6,±øÍÅÎÀÊÓ
+#EXTINF:-1 tvg-name=å…µå›¢å«è§† tvg-logo=https://live.fanmingming.com/tv/å…µå›¢å«è§†.png group-title=IPV6,å…µå›¢å«è§†
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226439/index.m3u8
-#EXTINF:-1 tvg-name=ÑÓ±ßÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/ÑÓ±ßÎÀÊÓ.png group-title=IPV6,ÑÓ±ßÎÀÊÓ
+#EXTINF:-1 tvg-name=å»¶è¾¹å«è§† tvg-logo=https://live.fanmingming.com/tv/å»¶è¾¹å«è§†.png group-title=IPV6,å»¶è¾¹å«è§†
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226516/index.m3u8
-#EXTINF:-1 tvg-name=´óÍåÇøÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/´óÍåÇøÎÀÊÓ.png group-title=IPV6,´óÍåÇøÎÀÊÓ
+#EXTINF:-1 tvg-name=å¤§æ¹¾åŒºå«è§† tvg-logo=https://live.fanmingming.com/tv/å¤§æ¹¾åŒºå«è§†.png group-title=IPV6,å¤§æ¹¾åŒºå«è§†
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226442/index.m3u8
-#EXTINF:-1 tvg-name=°²¶àÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/°²¶àÎÀÊÓ.png group-title=IPV6,°²¶àÎÀÊÓ
+#EXTINF:-1 tvg-name=å®‰å¤šå«è§† tvg-logo=https://live.fanmingming.com/tv/å®‰å¤šå«è§†.png group-title=IPV6,å®‰å¤šå«è§†
 http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225659/index.m3u8
-#EXTINF:-1 tvg-name=¿µ°ÍÎÀÊÓ tvg-logo=https://live.fanmingming.com/tv/¿µ°ÍÎÀÊÓ.png group-title=IPV6,¿µ°ÍÎÀÊÓ
+#EXTINF:-1 tvg-name=åº·å·´å«è§† tvg-logo=https://live.fanmingming.com/tv/åº·å·´å«è§†.png group-title=IPV6,åº·å·´å«è§†
 http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225660/index.m3u8
 #EXTINF:-1 tvg-name=CETV1 tvg-logo=https://live.fanmingming.com/tv/CETV1.png group-title=IPV6,CETV-1
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225652/index.m3u8
@@ -163,64 +163,64 @@ http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:1a0b:df::4013]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226425/index.m3u8
 #EXTINF:-1 tvg-name=CETV4 tvg-logo=https://live.fanmingming.com/tv/CETV4.png group-title=IPV6,CETV-4
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225783/index.m3u8
-#EXTINF:-1 tvg-name=ÎåĞÇÌåÓı tvg-logo=https://live.fanmingming.com/tv/ÎåĞÇÌåÓı.png group-title=IPV6,ÎåĞÇÌåÓı
+#EXTINF:-1 tvg-name=äº”æ˜Ÿä½“è‚² tvg-logo=https://live.fanmingming.com/tv/äº”æ˜Ÿä½“è‚².png group-title=IPV6,äº”æ˜Ÿä½“è‚²
 http://[2409:8087:5e08:24::15]:6610/000000001000/2000000002000000007/index.m3u8?IAS
-#EXTINF:-1 tvg-name=CGTNÓ¢Óï tvg-logo=https://live.fanmingming.com/tv/CGTNÓ¢Óï.png group-title=IPV6,CGTNÓ¢Óï
+#EXTINF:-1 tvg-name=CGTNè‹±è¯­ tvg-logo=https://live.fanmingming.com/tv/CGTNè‹±è¯­.png group-title=IPV6,CGTNè‹±è¯­
 http://live.cgtn.com/1000/prog_index.m3u8
-#EXTINF:-1 tvg-name=¼ÍÊµÈËÎÄ tvg-logo=https://live.fanmingming.com/tv/¼ÍÊµÈËÎÄ.png group-title=IPV6,¼ÍÊµÈËÎÄ
+#EXTINF:-1 tvg-name=çºªå®äººæ–‡ tvg-logo=https://live.fanmingming.com/tv/çºªå®äººæ–‡.png group-title=IPV6,çºªå®äººæ–‡
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
-#EXTINF:-1 tvg-name=¼ÍÊµ¿Æ½Ì tvg-logo=https://live.fanmingming.com/tv/¼ÍÊµ¿Æ½Ì.png group-title=IPV6,¼ÍÊµ¿Æ½Ì
+#EXTINF:-1 tvg-name=çºªå®ç§‘æ•™ tvg-logo=https://live.fanmingming.com/tv/çºªå®ç§‘æ•™.png group-title=IPV6,çºªå®ç§‘æ•™
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8
-#EXTINF:-1 tvg-name=¿¨¿áÉÙ¶ù tvg-logo=https://live.fanmingming.com/tv/¿¨¿áÉÙ¶ù.png group-title=IPV6,¿¨¿áÉÙ¶ù
+#EXTINF:-1 tvg-name=å¡é…·å°‘å„¿ tvg-logo=https://live.fanmingming.com/tv/å¡é…·å°‘å„¿.png group-title=IPV6,å¡é…·å°‘å„¿
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8
-#EXTINF:-1 tvg-name=½ğÓ¥¿¨Í¨ tvg-logo=https://live.fanmingming.com/tv/½ğÓ¥¿¨Í¨.png group-title=IPV6,½ğÓ¥¿¨Í¨
+#EXTINF:-1 tvg-name=é‡‘é¹°å¡é€š tvg-logo=https://live.fanmingming.com/tv/é‡‘é¹°å¡é€š.png group-title=IPV6,é‡‘é¹°å¡é€š
 http://[2409:8087:1a0b:df::4008]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225653/index.m3u8
-#EXTINF:-1 tvg-name=ßÕà£ÈüÊÂ tvg-logo=https://live.fanmingming.com/tv/ßÕà£ÈüÊÂ.png group-title=IPV6,ßÕà£ÈüÊÂ
+#EXTINF:-1 tvg-name=å“’å•µèµ›äº‹ tvg-logo=https://live.fanmingming.com/tv/å“’å•µèµ›äº‹.png group-title=IPV6,å“’å•µèµ›äº‹
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225675/index.m3u8
-#EXTINF:-1 tvg-name=ÓÅÂş¿¨Í¨ tvg-logo=https://live.fanmingming.com/tv/ÓÅÂş¿¨Í¨.png group-title=IPV6,ÓÅÂş¿¨Í¨
+#EXTINF:-1 tvg-name=ä¼˜æ¼«å¡é€š tvg-logo=https://live.fanmingming.com/tv/ä¼˜æ¼«å¡é€š.png group-title=IPV6,ä¼˜æ¼«å¡é€š
 http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8
-#EXTINF:-1 tvg-name=¹ş¹şìÅ¶¯ tvg-logo=https://live.fanmingming.com/tv/¹ş¹şìÅ¶¯.png group-title=IPV6,¹ş¹şìÅ¶¯
+#EXTINF:-1 tvg-name=å“ˆå“ˆç‚«åŠ¨ tvg-logo=https://live.fanmingming.com/tv/å“ˆå“ˆç‚«åŠ¨.png group-title=IPV6,å“ˆå“ˆç‚«åŠ¨
 http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225657/index.m3u8
-#EXTINF:-1 tvg-name=ºÚİ®¶¯»­ tvg-logo=https://live.fanmingming.com/tv/ºÚİ®¶¯»­.png group-title=IPV6,ºÚİ®¶¯»­
+#EXTINF:-1 tvg-name=é»‘è“åŠ¨ç”» tvg-logo=https://live.fanmingming.com/tv/é»‘è“åŠ¨ç”».png group-title=IPV6,é»‘è“åŠ¨ç”»
 http://[2409:8087:1a0b:df::4006]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
-#EXTINF:-1 tvg-name=ºÚİ®µçÓ° tvg-logo=https://live.fanmingming.com/tv/ºÚİ®µçÓ°.png group-title=IPV6,ºÚİ®µçÓ°
+#EXTINF:-1 tvg-name=é»‘è“ç”µå½± tvg-logo=https://live.fanmingming.com/tv/é»‘è“ç”µå½±.png group-title=IPV6,é»‘è“ç”µå½±
 http://[2409:8087:1a0b:df::4014]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
-#EXTINF:-1 tvg-name=³¬¼¶ÌåÓı tvg-logo=https://live.fanmingming.com/tv/³¬¼¶ÌåÓı.png group-title=IPV6,³¬¼¶ÌåÓı
+#EXTINF:-1 tvg-name=è¶…çº§ä½“è‚² tvg-logo=https://live.fanmingming.com/tv/è¶…çº§ä½“è‚².png group-title=IPV6,è¶…çº§ä½“è‚²
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
-#EXTINF:-1 tvg-name=³¬¼¶µçÓ° tvg-logo=https://live.fanmingming.com/tv/³¬¼¶µçÓ°.png group-title=IPV6,³¬¼¶µçÓ°
+#EXTINF:-1 tvg-name=è¶…çº§ç”µå½± tvg-logo=https://live.fanmingming.com/tv/è¶…çº§ç”µå½±.png group-title=IPV6,è¶…çº§ç”µå½±
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
-#EXTINF:-1 tvg-name=³¬¼¶ÊÓ¾ç tvg-logo=https://live.fanmingming.com/tv/³¬¼¶ÊÓ¾ç.png group-title=IPV6,³¬¼¶ÊÓ¾ç
+#EXTINF:-1 tvg-name=è¶…çº§è§†å‰§ tvg-logo=https://live.fanmingming.com/tv/è¶…çº§è§†å‰§.png group-title=IPV6,è¶…çº§è§†å‰§
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8
-#EXTINF:-1 tvg-name=¶«±±ÈÈ¾ç tvg-logo=https://live.fanmingming.com/tv/¶«±±ÈÈ¾ç.png group-title=IPV6,¶«±±ÈÈ¾ç
+#EXTINF:-1 tvg-name=ä¸œåŒ—çƒ­å‰§ tvg-logo=https://live.fanmingming.com/tv/ä¸œåŒ—çƒ­å‰§.png group-title=IPV6,ä¸œåŒ—çƒ­å‰§
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
-#EXTINF:-1 tvg-name=º£Íâ¾ç³¡ tvg-logo=https://live.fanmingming.com/tv/º£Íâ¾ç³¡.png group-title=IPV6,º£Íâ¾ç³¡
+#EXTINF:-1 tvg-name=æµ·å¤–å‰§åœº tvg-logo=https://live.fanmingming.com/tv/æµ·å¤–å‰§åœº.png group-title=IPV6,æµ·å¤–å‰§åœº
 http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
-#EXTINF:-1 tvg-name=ÖĞ¹ú¹¦·ò tvg-logo=https://live.fanmingming.com/tv/ÖĞ¹ú¹¦·ò.png group-title=IPV6,ÖĞ¹ú¹¦·ò
+#EXTINF:-1 tvg-name=ä¸­å›½åŠŸå¤« tvg-logo=https://live.fanmingming.com/tv/ä¸­å›½åŠŸå¤«.png group-title=IPV6,ä¸­å›½åŠŸå¤«
 http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
-#EXTINF:-1 tvg-name=¾üÂÃ¾ç³¡ tvg-logo=https://live.fanmingming.com/tv/¾üÂÃ¾ç³¡.png group-title=IPV6,¾üÂÃ¾ç³¡
+#EXTINF:-1 tvg-name=å†›æ—…å‰§åœº tvg-logo=https://live.fanmingming.com/tv/å†›æ—…å‰§åœº.png group-title=IPV6,å†›æ—…å‰§åœº
 http://[2409:8087:1a0b:df::4018]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8
-#EXTINF:-1 tvg-name=¾ªã¤ĞüÒÉ tvg-logo=https://live.fanmingming.com/tv/¾ªã¤ĞüÒÉ.png group-title=IPV6,¾ªã¤ĞüÒÉ
+#EXTINF:-1 tvg-name=æƒŠæ‚šæ‚¬ç–‘ tvg-logo=https://live.fanmingming.com/tv/æƒŠæ‚šæ‚¬ç–‘.png group-title=IPV6,æƒŠæ‚šæ‚¬ç–‘
 http://[2409:8087:1a0b:df::4002]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8
-#EXTINF:-1 tvg-name=³±ÂèÀ±ÆÅ tvg-logo=https://live.fanmingming.com/tv/³±ÂèÀ±ÆÅ.png group-title=IPV6,³±ÂèÀ±ÆÅ
+#EXTINF:-1 tvg-name=æ½®å¦ˆè¾£å©† tvg-logo=https://live.fanmingming.com/tv/æ½®å¦ˆè¾£å©†.png group-title=IPV6,æ½®å¦ˆè¾£å©†
 http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8
-#EXTINF:-1 tvg-name=¾«Æ·ÌåÓı tvg-logo=https://live.fanmingming.com/tv/¾«Æ·ÌåÓı.png group-title=IPV6,¾«Æ·ÌåÓı
+#EXTINF:-1 tvg-name=ç²¾å“ä½“è‚² tvg-logo=https://live.fanmingming.com/tv/ç²¾å“ä½“è‚².png group-title=IPV6,ç²¾å“ä½“è‚²
 http://[2409:8087:1a0b:df::4004]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225674/index.m3u8
-#EXTINF:-1 tvg-name=¾«Æ·¼ÍÂ¼ tvg-logo=https://live.fanmingming.com/tv/¾«Æ·¼ÍÂ¼.png group-title=IPV6,¾«Æ·¼ÍÂ¼
+#EXTINF:-1 tvg-name=ç²¾å“çºªå½• tvg-logo=https://live.fanmingming.com/tv/ç²¾å“çºªå½•.png group-title=IPV6,ç²¾å“çºªå½•
 http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225672/index.m3u8
-#EXTINF:-1 tvg-name=¼ÒÍ¥¾ç³¡ tvg-logo=https://live.fanmingming.com/tv/¼ÒÍ¥¾ç³¡.png group-title=IPV6,¼ÒÍ¥¾ç³¡
+#EXTINF:-1 tvg-name=å®¶åº­å‰§åœº tvg-logo=https://live.fanmingming.com/tv/å®¶åº­å‰§åœº.png group-title=IPV6,å®¶åº­å‰§åœº
 http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8
-#EXTINF:-1 tvg-name=¾«Æ·´ó¾ç tvg-logo=https://live.fanmingming.com/tv/¾«Æ·´ó¾ç.png group-title=IPV6,¾«Æ·´ó¾ç
+#EXTINF:-1 tvg-name=ç²¾å“å¤§å‰§ tvg-logo=https://live.fanmingming.com/tv/ç²¾å“å¤§å‰§.png group-title=IPV6,ç²¾å“å¤§å‰§
 http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8
-#EXTINF:-1 tvg-name=¾üÊÂÆÀÂÛ tvg-logo=https://live.fanmingming.com/tv/¾üÊÂÆÀÂÛ.png group-title=IPV6,¾üÊÂÆÀÂÛ
+#EXTINF:-1 tvg-name=å†›äº‹è¯„è®º tvg-logo=https://live.fanmingming.com/tv/å†›äº‹è¯„è®º.png group-title=IPV6,å†›äº‹è¯„è®º
 http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225668/index.m3u8
-#EXTINF:-1 tvg-name=Ã÷ĞÇ´óÆ¬ tvg-logo=https://live.fanmingming.com/tv/Ã÷ĞÇ´óÆ¬.png group-title=IPV6,Ã÷ĞÇ´óÆ¬
+#EXTINF:-1 tvg-name=æ˜æ˜Ÿå¤§ç‰‡ tvg-logo=https://live.fanmingming.com/tv/æ˜æ˜Ÿå¤§ç‰‡.png group-title=IPV6,æ˜æ˜Ÿå¤§ç‰‡
 http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
-#EXTINF:-1 tvg-name=»¶ÀÖ¾ç³¡ tvg-logo=https://live.fanmingming.com/tv/»¶ÀÖ¾ç³¡.png group-title=IPV6,»¶ÀÖ¾ç³¡
+#EXTINF:-1 tvg-name=æ¬¢ä¹å‰§åœº tvg-logo=https://live.fanmingming.com/tv/æ¬¢ä¹å‰§åœº.png group-title=IPV6,æ¬¢ä¹å‰§åœº
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
-#EXTINF:-1 tvg-name=¾«Æ·ÃÈ³è tvg-logo=https://live.fanmingming.com/tv/¾«Æ·ÃÈ³è.png group-title=IPV6,¾«Æ·ÃÈ³è
+#EXTINF:-1 tvg-name=ç²¾å“èŒå®  tvg-logo=https://live.fanmingming.com/tv/ç²¾å“èŒå® .png group-title=IPV6,ç²¾å“èŒå® 
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226505/index.m3u8
-#EXTINF:-1 tvg-name=³¬¼¶×ÛÒÕ tvg-logo=https://live.fanmingming.com/tv/³¬¼¶×ÛÒÕ.png group-title=IPV6,³¬¼¶×ÛÒÕ
+#EXTINF:-1 tvg-name=è¶…çº§ç»¼è‰º tvg-logo=https://live.fanmingming.com/tv/è¶…çº§ç»¼è‰º.png group-title=IPV6,è¶…çº§ç»¼è‰º
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225714/index.m3u8
-#EXTINF:-1 tvg-name=½ğÅÆ×ÛÒÕ tvg-logo=https://live.fanmingming.com/tv/½ğÅÆ×ÛÒÕ.png group-title=IPV6,½ğÅÆ×ÛÒÕ
+#EXTINF:-1 tvg-name=é‡‘ç‰Œç»¼è‰º tvg-logo=https://live.fanmingming.com/tv/é‡‘ç‰Œç»¼è‰º.png group-title=IPV6,é‡‘ç‰Œç»¼è‰º
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8
 
