@@ -165,8 +165,7 @@ async function loadexturl() {
   }, "");
   // 获取全部可用链接后，统一写入
   for (const line of ret.split("\n")) {
-    let aa = await execmd('printf -- "\n' + line + '"' + " >>live.txt");
-	console.log("写入文件"+line+"，结果"+aa);
+    await execmd('printf -- "' + line + '\\n" >>live.txt');
   }
   let m3u_txt = convertToM3U(ret);
   // console.log(m3u_txt);
