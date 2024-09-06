@@ -54,7 +54,7 @@ async function execmd(cmd) {
   var _err,
     _stdout,
     _stderr = null;
-  exec(cmd, async function (err, stdout, stderr) {
+  exec(cmd, { encoding:"utf-8"}, async function (err, stdout, stderr) {
     _err = err;
     _stdout = stdout;
     _stderr = stderr;
