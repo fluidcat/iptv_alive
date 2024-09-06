@@ -165,13 +165,13 @@ async function loadexturl() {
   }, "");
   // 获取全部可用链接后，统一写入
   for (const line of ret.split("\n")) {
-    await execmd('printf -- "' + line + '\\n" >>live.txt');
+    await execmd('printf -- ' + line + '\\n >>live.txt');
   }
   let m3u_txt = convertToM3U(ret);
   // console.log(m3u_txt);
   // 写入 m3u 地址
   for (const line of m3u_txt.split("\n")) {
-    await execmd('printf -- "\n' + line + '"' + " >>live.m3u");
+    await execmd('printf -- ' + line + '\\n >>live.m3u');
   }
   // push到 github
   await pushgit();
