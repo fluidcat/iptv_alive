@@ -10,6 +10,10 @@ const PROXY_ENV = "";
 const fetch = require("node-fetch");
 var exec = require("child_process").exec;
 
+const os = require('os');
+
+var enter = os.type() == 'Windows_NT'?'\\n':'\n';
+
 async function verifyurl(url) {
   try {
 	if(url.endsWith("flv")){
@@ -164,14 +168,14 @@ async function loadexturl() {
     }
   }, "");
   // 获取全部可用链接后，统一写入
-  for (const line of ret.split("\n")) {
-    await execmd('printf -- ' + line + '\\n >>live.txt');
+  for (const line of ret.substr(1).split("\n")) {
+    await execmd('printf -- "' + line + enter + '" >>live.txt');
   }
   let m3u_txt = convertToM3U(ret);
   // console.log(m3u_txt);
   // 写入 m3u 地址
   for (const line of m3u_txt.split("\n")) {
-    await execmd('printf -- ' + line + '\\n >>live.m3u');
+    await execmd('printf -- "' + line + enter + '" >>live.m3u');
   }
   // push到 github
   await pushgit();
