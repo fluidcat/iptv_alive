@@ -163,7 +163,6 @@ async function checkallurl(data) {
   return ret;
 }
 async function loadexturl() {
-  // const loadlist='https://raw.githubusercontent.com/qist/tvbox/master/list.txt'
   fs.writeFile(channelTxt, '', { flag: 'w+' }, err => {});
   fs.writeFile(channelM3u, '', { flag: 'w+' }, err => {});
 
@@ -182,16 +181,11 @@ async function loadexturl() {
   
   // 获取全部可用链接后，统一写入
   fs.writeFile(channelTxt, ret, { flag: 'w+' }, err => {});
-  // for (const line of ret.substr(1).split("\n")) {
-  //  await execmd('printf -- "' + line + enter + '" >>live.txt');
-  // }
+
   let m3u_txt = convertToM3U(ret);
-  // console.log(m3u_txt);
   // 写入 m3u 地址
-  fs.writeFile(channelTxt, m3u_txt, { flag: 'w+' }, err => {});
-  // for (const line of m3u_txt.split("\n")) {
-  //   await execmd('printf -- "' + line + enter + '" >>live.m3u');
-  // }
+  fs.writeFile(channelM3u, m3u_txt, {flag: 'w+'}, err => {});
+
   // push到 github
   await pushgit();
   console.log("状态:", "over");
