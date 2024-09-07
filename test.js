@@ -1,7 +1,7 @@
 const CHECK_URL = [
-  "https://gitdl.cn/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
-  "https://gitdl.cn/https://raw.githubusercontent.com/qist/tvbox/master/list.txt",
-  "https://gitee.com/xxy002/zhiboyuan/raw/master/zby.txt",
+  //"https://gitdl.cn/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
+  //"https://gitdl.cn/https://raw.githubusercontent.com/qist/tvbox/master/list.txt",
+  //"https://gitee.com/xxy002/zhiboyuan/raw/master/zby.txt",
   "http://kv.zwc365.com/tvlive"
 ];
 
@@ -36,25 +36,64 @@ Date.prototype.Format = function (fmt) {
   }
   return fmt;
 };
+
+async function fetchResponse(url) {
+	return await fetch(url, {
+      method: "GET",
+      headers: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0"},
+      responseType: "stream",
+      timeout: 3000,
+    });
+}
 async function verifyurl(url) {
   try {
 	if(url.endsWith("flv")){
 		return false;
 	}
-    var res = await fetch(url, {
-      method: "GET",
-      headers: {
-        "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0",
-      },
-      responseType: "stream",
-      timeout: 3000,
-    });
+    var res = await fetchResponse(url);
+	if (res.status != 200){
+//		console.log("响应错误:"+res.status+", "+url)
+		return false;
+/*	} else if (url.includes('.m3u8') || res.headers.get('content-type') == 'application/vnd.apple.mpegurl'){
+		let body = await res.text();
+	} else if(res.headers.get('content-type') == 'video/x-flv') {
+		let speed = await checkSpeed([url])
+*/	} else {
+//		console.log("headers:"+JSON.stringify(res.headers))
+	}
     return true;
   } catch (e) {
-    // console.log(e);
+//    console.log(e);
     return false;
   }
+}
+
+async function checkSpeed(urls) {
+	let chunkSize = 0;
+	let startTime = new Date().getTime();
+	let waitHandler = new Promise((resolve) => {
+		setTimeout(async()=>{
+			for(var index in urls){
+				let url = urls[index];
+				console.log("开始："+new Date().getTime())
+				let response = await fetchResponse(url);
+				if (response.status != 200){
+					chunkSize=0;
+					break;
+				}
+				chunkSize+=response.body.readableLength;
+				console.log("结束："+new Date().getTime())
+			}
+			resolve();
+		}, 12000);
+	});
+
+	await waitHandler;
+	let costSecond = ((new Date().getTime()) - startTime)/1000;
+	if(chunkSize <= 0) {
+		return 0;
+	}
+	return chunkSize/costSecond/1024/1024;
 }
 
 async function getPlain(url) {
@@ -74,7 +113,7 @@ async function geturlcontent(url) {
   try {
 //    var res1 = await execmd(PROXY_ENV + " " + 'curl -s -L "' + url + '"');
 	var res = await getPlain(url);
-	console.log(res);
+//	console.log(res);
     return res;
   } catch (e) {
     console.log(e);
@@ -168,17 +207,17 @@ async function checkallurl(data) {
     if (isesplit.length >= 2) {
       if (isesplit[1].trim().indexOf("http") == 0) {
         if (await verifyurl(isesplit[1].trim())) {
-          console.log("append:", ise);
+          console.log("添加:", ise);
           ret += "\n" + ise;
         } else {
-          console.log("过滤无法访问的源:", ise);
+          console.log("排除:", ise);
         }
         return;
       }
     }
     ret += "\n" + ise;
   }, "");
-  console.log(ret)
+
   return ret;
 }
 
@@ -266,7 +305,6 @@ function regroup(channels) {
 		  ret += tvChannelGroups[group][channel]+'\n'
 	  }
   });
-  console.log(ret)
   return ret;
 }
 
@@ -283,7 +321,6 @@ async function loadexturl() {
 
     var content = await geturlcontent(url);
     if (content) {
-//		ret += content;
 		ret += await checkallurl(content);
     }
   }, "");
