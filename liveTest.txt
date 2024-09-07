@@ -15,7 +15,6 @@ CCTV-17 农业农村,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.c
 CCTV-4 中文国际,https://live.goodiptv.club/api/bestv.php?id=cctv4k/15000000
 CCTV-1 综合,https://live.goodiptv.club/api/bestv.php?id=cctv1hd8m/8000000
 CCTV-2 财经,https://live.goodiptv.club/api/bestv.php?id=cctv2hd8m/8000000
-CCTV-3 综艺,https://live.goodiptv.club/api/bestv.php?id=cctv38m/8000000
 CCTV-4 中文国际,https://live.goodiptv.club/api/bestv.php?id=cctv4hd8m/8000000
 CCTV-5 体育,https://live.goodiptv.club/api/bestv.php?id=cctv58m/8000000
 CCTV-5+ 体育赛事,https://live.goodiptv.club/api/bestv.php?id=cctv5phd8m/8000000
@@ -128,6 +127,7 @@ CCTV-17 农业农村,https://live.goodiptv.club/api/bestv.php?id=cctv17hd8m/8000
 非凡新闻,rtmp://f13h.mine.nu/sat/tv581
 华视,rtmp://f13h.mine.nu/sat/tv111
 民视,rtmp://f13h.mine.nu/sat/tv051
+纬来精采,http://61.221.215.25:8800/hls/48/index.m3u8
 纬来日本,rtmp://f13h.mine.nu/sat/tv771
 纬来育乐,rtmp://f13h.mine.nu/sat/tv701
 纬来体育,rtmp://f13h.mine.nu/sat/tv771

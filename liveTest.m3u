@@ -31,8 +31,6 @@ https://live.goodiptv.club/api/bestv.php?id=cctv4k/15000000
 https://live.goodiptv.club/api/bestv.php?id=cctv1hd8m/8000000
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="央视频道",CCTV-2 财经
 https://live.goodiptv.club/api/bestv.php?id=cctv2hd8m/8000000
-#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://live.fanmingming.com/tv/CCTV3.png" group-title="央视频道",CCTV-3 综艺
-https://live.goodiptv.club/api/bestv.php?id=cctv38m/8000000
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://live.fanmingming.com/tv/CCTV4.png" group-title="央视频道",CCTV-4 中文国际
 https://live.goodiptv.club/api/bestv.php?id=cctv4hd8m/8000000
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" group-title="央视频道",CCTV-5 体育
@@ -251,6 +249,8 @@ rtmp://f13h.mine.nu/sat/tv581
 rtmp://f13h.mine.nu/sat/tv111
 #EXTINF:-1 tvg-name="民视" tvg-logo="https://live.fanmingming.com/tv/民视.png" group-title="港澳频道",民视
 rtmp://f13h.mine.nu/sat/tv051
+#EXTINF:-1 tvg-name="纬来精采" tvg-logo="https://live.fanmingming.com/tv/纬来精采.png" group-title="港澳频道",纬来精采
+http://61.221.215.25:8800/hls/48/index.m3u8
 #EXTINF:-1 tvg-name="纬来日本" tvg-logo="https://live.fanmingming.com/tv/纬来日本.png" group-title="港澳频道",纬来日本
 rtmp://f13h.mine.nu/sat/tv771
 #EXTINF:-1 tvg-name="纬来育乐" tvg-logo="https://live.fanmingming.com/tv/纬来育乐.png" group-title="港澳频道",纬来育乐

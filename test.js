@@ -49,7 +49,7 @@ async function fetchResponse(url) {
 	} catch (e) {
 		throw e;
 	} finally {
-		console.log(url+', 响应时间：'+ ((new Date().getTime())-fetchStart) +'ms');
+		console.log('响应时间'+ ((new Date().getTime())-fetchStart+'ms').padEnd(6,' ')+', '+url);
 	}
 }
 async function verifyurl(url) {
