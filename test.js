@@ -1,7 +1,7 @@
 const CHECK_URL = [
-  //"https://gitdl.cn/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
-  //"https://gitdl.cn/https://raw.githubusercontent.com/qist/tvbox/master/list.txt",
-  //"https://gitee.com/xxy002/zhiboyuan/raw/master/zby.txt",
+  "https://gitdl.cn/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
+  "https://gitdl.cn/https://raw.githubusercontent.com/qist/tvbox/master/list.txt",
+  "https://gitee.com/xxy002/zhiboyuan/raw/master/zby.txt",
   "http://kv.zwc365.com/tvlive"
 ];
 
@@ -37,6 +37,10 @@ Date.prototype.Format = function (fmt) {
   return fmt;
 };
 
+function debug(run){
+//	run();
+}
+
 async function fetchResponse(url) {
 	let fetchStart = new Date().getTime();
 	try {
@@ -44,12 +48,12 @@ async function fetchResponse(url) {
 		  method: "GET",
 		  headers: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0"},
 		  responseType: "stream",
-		  timeout: 3000,
+		  timeout: 2000,
 		});
 	} catch (e) {
 		throw e;
 	} finally {
-		console.log('响应时间'+ ((new Date().getTime())-fetchStart+'ms').padEnd(6,' ')+', '+url);
+		debug(()=>console.log('响应时间'+ ((new Date().getTime())-fetchStart+'').padStart(6,' ')+'ms, '+url));
 	}
 }
 async function verifyurl(url) {
@@ -75,9 +79,9 @@ async function verifyurl(url) {
 		if(speed == 0) {
 			console.log('无响应：'+url+'\nts:'+ts_list.join('\n')+'\nm3u8:\n'+tsTxt);
 			return false;
+		} else {
+			return speed;
 		}
-
-
 /*	} else if(res.headers.get('content-type') == 'video/x-flv') {
 		let speed = await checkSpeed([url])
 */	} else {
@@ -235,13 +239,15 @@ async function checkallurl(data) {
     if (isesplit.length >= 2) {
       if (isesplit[1].trim().indexOf("http") == 0) {
 		let stime = new Date().getTime()
-        if (await verifyurl(isesplit[1].trim())) {
+		let speed = await verifyurl(isesplit[1].trim());
+		debug(()=>console.log('校验时间'+((new Date().getTime())-stime+'').padStart(6,' ')+'ms'+(speed>0?', 速度:'+speed+'M/s':'')));
+        if (speed) {
           console.log("添加:", ise);
           ret += "\n" + ise;
         } else {
           console.log("排除:", ise);
         }
-		console.log('verifyurl时间：'+((new Date().getTime())-stime)+'ms\n\n');
+		debug(()=>console.log('\n\n'));
         return;
       }
     }
