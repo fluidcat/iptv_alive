@@ -10,9 +10,8 @@ const PROXY_ENV = "";
 const fetch = require("node-fetch");
 const fs = require('fs');
 const os = require('os');
-const process = require("child_process")
 
-var exec = process.exec;
+var exec = require("child_process").exec;
 var enter = os.type() == 'Windows_NT'?'\\n':'\n';
 var channelTxt = './live.txt';
 var channelM3u = './live.m3u';
