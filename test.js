@@ -1,6 +1,4 @@
-const process = require("child_process")
-
-var exec = process.exec;
+var exec = require("child_process").exec;
 
 
 async function execmd(cmd) {
@@ -30,3 +28,5 @@ async function execmd(cmd) {
 }
 
 execmd('touch /root/iptv_alive/liveTest.txt')
+
+process.exit(0);
