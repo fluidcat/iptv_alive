@@ -373,7 +373,7 @@ async function loadexturl() {
   // push到 github
   await pushgit();
   console.log("状态:", "over");
-  // process.exit(0);
+  process.exit(0);
 }
 
 console.log("开始测试live地址并保存");
