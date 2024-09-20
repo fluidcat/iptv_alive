@@ -55,7 +55,7 @@ async function pushgit() {
     return;
   }
   var gitstatu = await execmd('git commit -m "' + "自动提交: "+(new Date()).Format('yyyy-MM-dd HH:mm:ss')+ '"');
-  if (gitstatu[0]) {
+  if (gitstatu[0] && !gitstatu[2].includes('publish your local commit')) {
     console.log("git 提交出错：", gitstatu);
     return;
   }
