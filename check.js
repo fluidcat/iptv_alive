@@ -365,11 +365,11 @@ async function loadexturl() {
   ret = regroup(ret);
   
   // 获取全部可用链接后，统一写入
-  fs.writeFile(channelTxt, ret.trim(), { flag: 'w+' }, err => {});
+  await fs.writeFile(channelTxt, ret.trim(), { flag: 'w+' }, err => {});
 
   let m3u_txt = convertToM3U(ret);
   // 写入 m3u 地址
-  fs.writeFile(channelM3u, m3u_txt, {flag: 'w+'}, err => {});
+  await fs.writeFile(channelM3u, m3u_txt, {flag: 'w+'}, err => {});
 
   // push到 github
 //  await pushgit();
