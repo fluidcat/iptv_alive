@@ -1,7 +1,7 @@
 const CHECK_URL = [
-  //"https://gitdl.cn/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
-  //"https://gitdl.cn/https://raw.githubusercontent.com/qist/tvbox/master/list.txt",
-  //"https://gitee.com/xxy002/zhiboyuan/raw/master/zby.txt",
+  "https://gitdl.cn/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
+  "https://gitdl.cn/https://raw.githubusercontent.com/qist/tvbox/master/list.txt",
+  "https://gitee.com/xxy002/zhiboyuan/raw/master/zby.txt",
   "http://kv.zwc365.com/tvlive"
 ];
 
