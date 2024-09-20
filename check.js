@@ -1,7 +1,7 @@
 const CHECK_URL = [
-  "https://gitdl.cn/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
-  "https://gitdl.cn/https://raw.githubusercontent.com/qist/tvbox/master/list.txt",
-  "https://gitee.com/xxy002/zhiboyuan/raw/master/zby.txt",
+  //"https://gitdl.cn/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
+  //"https://gitdl.cn/https://raw.githubusercontent.com/qist/tvbox/master/list.txt",
+  //"https://gitee.com/xxy002/zhiboyuan/raw/master/zby.txt",
   "http://kv.zwc365.com/tvlive"
 ];
 
@@ -178,17 +178,19 @@ async function execmd(cmd) {
   return [_err, _stdout, _stderr];
 }
 async function pushgit() {
-  console.log("exec over");
+  console.log("git add .");
   var gitstatu = await execmd("git add .");
   if (gitstatu[0]) {
     console.log("git 提交出错：", gitstatu);
     return;
   }
+  console.log("git commit");
   var gitstatu = await execmd('git commit -m "' + "自动提交: "+(new Date()).Format('yyyy-MM-dd HH:mm:ss')+ '"');
   if (gitstatu[0] && !gitstatu[1].includes('publish your local commit')) {
     console.log("git 提交出错：", gitstatu);
     return;
   }
+  console.log("git push");
   var gitstatu = await execmd("git push origin master");
   if (gitstatu[0]) {
     console.log("git 提交出错：", gitstatu);
