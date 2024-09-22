@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/local/bin/node
 
 const CHECK_URL = [
   "https://gitdl.cn/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
