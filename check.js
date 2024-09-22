@@ -57,6 +57,7 @@ async function fetchResponse(url) {
 }
 async function verifyurl(url) {
   try {
+	return true;
 	if(url.endsWith("flv")){
 		return false;
 	}
@@ -346,8 +347,8 @@ function regroup(channels) {
 }
 
 async function loadexturl() {
-  fs.writeFile(channelTxt, '', { flag: 'w+' }, err => {});
-  fs.writeFile(channelM3u, '', { flag: 'w+' }, err => {});
+  fs.writeFileSync(channelTxt, '', { flag: 'w+' }, err => {});
+  fs.writeFileSync(channelM3u, '', { flag: 'w+' }, err => {});
 
   let ret = "";
   await CHECK_URL.reduce(async (memo, url) => {
@@ -365,14 +366,14 @@ async function loadexturl() {
   ret = regroup(ret);
   
   // 获取全部可用链接后，统一写入
-  await fs.writeFile(channelTxt, ret.trim(), { flag: 'w+' }, err => {});
+  await fs.writeFileSync(channelTxt, ret.trim(), { flag: 'w+' }, err => {console.log(err)});
 
   let m3u_txt = convertToM3U(ret);
   // 写入 m3u 地址
-  await fs.writeFile(channelM3u, m3u_txt, {flag: 'w+'}, err => {});
+  await fs.writeFileSync(channelM3u, m3u_txt, {flag: 'w+'}, err => {console.log(err)});
 
   // push到 github
-//  await pushgit();
+  await pushgit();
   console.log("状态:", "over");
   process.exit(0);
 }
