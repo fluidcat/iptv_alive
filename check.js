@@ -57,7 +57,6 @@ async function fetchResponse(url) {
 }
 async function verifyurl(url) {
   try {
-	return true;
 	if(url.endsWith("flv")){
 		return false;
 	}
@@ -378,7 +377,7 @@ async function loadexturl() {
   process.exit(0);
 }
 
-console.log("开始测试live地址并保存");
+console.log("开始测试live地址并保存【"+(new Date()).Format('yyyy-MM-dd HH:mm:ss')+"】");
 loadexturl();
 
 // pushgit();
