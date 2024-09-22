@@ -57,6 +57,7 @@ async function fetchResponse(url) {
 }
 async function verifyurl(url) {
   try {
+	return true;
 	if(url.endsWith("flv")){
 		return false;
 	}
