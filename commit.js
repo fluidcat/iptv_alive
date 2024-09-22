@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const process = require("child_process")
 var exec = process.exec;
 
