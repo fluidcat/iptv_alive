@@ -373,7 +373,7 @@ async function loadexturl() {
   await fs.writeFileSync(channelM3u, m3u_txt, {flag: 'w+'}, err => {console.log(err)});
 
   // push到 github
-  await pushgit();
+ // await pushgit();
   console.log("状态:", "over");
   process.exit(0);
 }
