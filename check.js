@@ -47,7 +47,7 @@ async function fetchResponse(url) {
 		  method: "GET",
 		  headers: {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0"},
 		  responseType: "stream",
-		  timeout: 2000,
+		  timeout: 1000,
 		});
 	} catch (e) {
 		throw e;
@@ -57,7 +57,7 @@ async function fetchResponse(url) {
 }
 async function verifyurl(url) {
   try {
-	return true;
+	// return true;
 	if(url.endsWith("flv")){
 		return false;
 	}
